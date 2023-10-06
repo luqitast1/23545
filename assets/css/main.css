@@ -1,0 +1,75 @@
+      /* Estilos para el footer */
+      footer {
+        background-color: rgb(28,56,70);
+        color: #ffffff; /* Color de texto blanco */
+        padding: 20px 0; /* Espaciado interno arriba y abajo */
+    }
+ 
+
+    footer ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    footer ul li {
+        font-size: 18px;
+    }
+
+    footer ul li a {
+        text-decoration: none; /* Elimina el subrayado */
+        color: #ffffff; /* Color de texto blanco */
+    }
+
+    footer ul li a:hover {
+        font-weight: bold;
+    }
+    
+    #navbarNavAltMarkup a:hover{
+        font-weight: bold;
+
+    }
+
+    .carousel-caption {
+        position: absolute; 
+        right: 0;
+        top: 0; /* Cambiar bottom por top y los píxeles que necesites */
+        left: 0;
+        bottom: 0; 
+        z-index: 10;
+        padding-top: 200px;
+        padding-bottom: 20px;
+        padding-right: 100px;
+        color: #fff;
+        display: flex;
+        text-align: center;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.5); /* Añadir para conseguir el fondo con opacidad */
+    } 
+  
+    .bg-grisoscuro{
+        background-color: #363333;
+    }
+
+    .btn-verde {
+        background-color: #65d165;
+        border-color: #65d165;
+    }
+
+    .btn-verde:hover {
+        background-color: #1f421f;
+        border-color: #1f421f;
+    }
+
+    .subrayadoPuntos {
+        text-decoration: dotted;
+        text-decoration-line: underline
+    }
+
+    #conviertete {
+        width: 60%;
+    }
